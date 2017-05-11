@@ -1,6 +1,6 @@
 **Summary**
 
-Fix the ability to move around in TestMode 
+Add the ability to assess pipeline's current module and move to a different module in TestMode 
 
 **Background and rationale**
 
