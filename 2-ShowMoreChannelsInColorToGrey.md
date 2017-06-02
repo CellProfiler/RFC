@@ -15,4 +15,8 @@ One of two solutions would be helpful- ideally we could show every channel as it
 
 **Implementation**
 
-TBC
+[ColorToGray's code explictly creates each subpanel](https://github.com/CellProfiler/CellProfiler/blob/master/cellprofiler/modules/colortogray.py#L367-L391)
+
+[CorrectIlluminationApply creates a row of 3 each time no matter now many](https://github.com/CellProfiler/CellProfiler/blob/master/cellprofiler/modules/correctilluminationapply.py#L224-L256)
+
+We could compromise by adding a if between 4-8 go 3 wide, 9-15 4 wide, 16-24 5 wide, then add a (N not shown) at the end.
