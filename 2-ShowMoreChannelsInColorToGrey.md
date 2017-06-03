@@ -15,4 +15,4 @@ One of two solutions would be helpful- ideally we could show every channel as it
 
 **Implementation**
 
-[See bethac07/CellProfiler branch RFC/2](https://github.com/bethac07/CellProfiler/blob/RFC/2/cellprofiler/modules/colortogray.py)
+[See bethac07/CellProfiler branch RFC/2_master](https://github.com/bethac07/CellProfiler/blob/RFC/2_master/cellprofiler/modules/colortogray.py)
